@@ -1,13 +1,353 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "3053ec06-840e-4005-9343-c33222f1a18f")
 	(paper "A4")
 	(title_block
 		(title "ErgoDox EZBL")
 	)
 	(lib_symbols
+		(symbol "Connector:USB_A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_A"
+				(at -5.08 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Type A connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_A_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 4.826)
+					(end -4.318 5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 4.572)
+					(end -4.572 5.842)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_A_1_1"
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -19,8 +359,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "BT"
 				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,6 +374,8 @@
 			)
 			(property "Value" "Battery_Cell"
 				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,65 +385,79 @@
 			)
 			(property "Footprint" ""
 				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Single-cell battery"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Device" "V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Type" "DC"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=+ 2=-"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Battery_Cell_0_1"
@@ -222,8 +582,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -232,6 +596,8 @@
 			)
 			(property "Value" "1N4148"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -240,65 +606,79 @@
 			)
 			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "100V 0.15A standard switching diode, DO-35"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Device" "D"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "D*DO?35*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "1N4148_0_1"
@@ -383,8 +763,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -393,6 +777,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -401,6 +787,8 @@
 			)
 			(property "Footprint" "Library:ProMicro"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -409,20 +797,24 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "ProMicro_0_1"
@@ -673,197 +1065,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "B+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -5.08 180)
-					(length 2.54)
-					(name "RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 -10.16 180)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 -12.7 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 11.43 -15.24 180)
+					(at 11.43 -33.02 180)
 					(length 2.54)
-					(name "031"
+					(name "009"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -17.78 180)
-					(length 2.54)
-					(name "029"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -20.32 180)
-					(length 2.54)
-					(name "002"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -22.86 180)
-					(length 2.54)
-					(name "115"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -25.4 180)
-					(length 2.54)
-					(name "113"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -27.94 180)
-					(length 2.54)
-					(name "111"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -890,16 +1102,196 @@
 					)
 				)
 				(pin bidirectional line
-					(at 11.43 -33.02 180)
+					(at 11.43 -27.94 180)
 					(length 2.54)
-					(name "009"
+					(name "111"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -25.4 180)
+					(length 2.54)
+					(name "113"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -22.86 180)
+					(length 2.54)
+					(name "115"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -20.32 180)
+					(length 2.54)
+					(name "002"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "029"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "031"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -910,87 +1302,102 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Connector:Barrel_Jack_PTH"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "PCM_SparkFun-Connector:Audio_Jack_TRRS_3.5mm_SMD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.334 0)
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_PTH"
-				(at 0 -5.08 0)
+			(property "Value" "3.5mm TRRS"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Connector:Barrel_Jack_PTH"
-				(at 1.27 -8.89 0)
+			(property "Footprint" "PCM_SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf"
-				(at 1.27 -11.43 0)
+			(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" "DC Barrel Jack with an internal switch"
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
 				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-08197"
-				(at 0 -7.62 0)
+			(property "PROD_ID" "CONN-10676"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun DC power barrel jack connector"
+			(property "ki_keywords" "SparkFun audio jack receptacle stereo headphones TRRS connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BarrelJack*"
+			(property "ki_fp_filters" "Jack*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_PTH_0_1"
+			(symbol "Audio_Jack_TRRS_3.5mm_SMD_0_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start -6.35 3.81)
+					(end 2.54 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -999,57 +1406,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1060,7 +1419,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1072,7 +1431,31 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1083,18 +1466,18 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_PTH_1_1"
+			(symbol "Audio_Jack_TRRS_3.5mm_SMD_1_1"
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "PWR"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "R1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1103,16 +1486,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "GNDBREAK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "R2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1121,16 +1504,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1149,8 +1550,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1159,6 +1564,8 @@
 			)
 			(property "Value" "SW_DPDT_x2"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1167,47 +1574,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Switch, dual pole double throw, separate symbols"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SW*DPDT*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SW_DPDT_x2_0_0"
@@ -1272,24 +1689,6 @@
 			)
 			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
@@ -1300,6 +1699,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1328,24 +1745,6 @@
 			)
 			(symbol "SW_DPDT_x2_2_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
@@ -1356,6 +1755,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1395,8 +1812,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1406,6 +1827,8 @@
 			)
 			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1414,38 +1837,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SW_Push_0_1"
@@ -1902,12 +2333,28 @@
 		(uuid "fababe17-d13c-4a30-99cd-dc22982a2936")
 	)
 	(no_connect
+		(at 154.94 43.18)
+		(uuid "0948e15f-6cac-4cf1-8077-82ddbafc8f2a")
+	)
+	(no_connect
+		(at 129.54 48.26)
+		(uuid "0fa6aa4b-ea3d-47a9-8442-95e29d74b859")
+	)
+	(no_connect
+		(at 264.16 52.07)
+		(uuid "1f4de05e-c7bf-4afc-a0b1-6f53ae3eb801")
+	)
+	(no_connect
 		(at 129.54 50.8)
 		(uuid "38e70ff7-f3a0-4125-9a33-5d8c234c344b")
 	)
 	(no_connect
 		(at 154.94 53.34)
 		(uuid "4876b815-3172-4fa8-b9eb-f3add0160644")
+	)
+	(no_connect
+		(at 154.94 48.26)
+		(uuid "6a25f4ed-3670-4291-9bcb-19d1dd6101cb")
 	)
 	(no_connect
 		(at 129.54 55.88)
@@ -1920,6 +2367,18 @@
 	(no_connect
 		(at 129.54 53.34)
 		(uuid "be2ada19-ff5a-491f-99a4-0c6a88bc74e4")
+	)
+	(no_connect
+		(at 129.54 45.72)
+		(uuid "cd9d32ea-da09-4fe8-8c96-d5496d8e7170")
+	)
+	(no_connect
+		(at 129.54 43.18)
+		(uuid "db9e07ef-15ce-4ed9-aa63-1876de2fb276")
+	)
+	(no_connect
+		(at 154.94 45.72)
+		(uuid "eb4444f7-7b2f-4a4c-a1f2-2bab5f8142b1")
 	)
 	(wire
 		(pts
@@ -1960,6 +2419,16 @@
 			(type default)
 		)
 		(uuid "05fd1543-c9ab-477c-bbb4-b573221c2d4c")
+	)
+	(wire
+		(pts
+			(xy 236.22 45.72) (xy 243.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c4134a-94e2-4913-9566-50656a3c02ae")
 	)
 	(wire
 		(pts
@@ -2023,16 +2492,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 152.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bcc214a-f51d-4352-bd10-43efb72222af")
-	)
-	(wire
-		(pts
 			(xy 133.35 173.99) (xy 133.35 184.15)
 		)
 		(stroke
@@ -2040,16 +2499,6 @@
 			(type default)
 		)
 		(uuid "0beeb6bb-1c6a-4f47-8480-ef808585a59c")
-	)
-	(wire
-		(pts
-			(xy 170.18 22.86) (xy 177.8 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bfbe3eb-38f1-428b-a6db-0318b93dd75d")
 	)
 	(wire
 		(pts
@@ -2090,6 +2539,16 @@
 			(type default)
 		)
 		(uuid "0eaabcde-3da5-4ba8-98a2-6f1397ada507")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 154.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f213f14-5702-4ef3-9bdb-b115562ab25e")
 	)
 	(wire
 		(pts
@@ -2263,6 +2722,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 30.48) (xy 274.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a31fec0-c189-40b4-a690-12319401229e")
+	)
+	(wire
+		(pts
 			(xy 113.03 142.24) (xy 113.03 157.48)
 		)
 		(stroke
@@ -2423,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 30.48) (xy 274.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad9a539-94f5-4135-91fd-50344caad004")
+	)
+	(wire
+		(pts
 			(xy 63.5 142.24) (xy 59.69 142.24)
 		)
 		(stroke
@@ -2433,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 48.26) (xy 132.08 48.26)
+			(xy 129.54 48.26) (xy 132.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2610,6 +3089,16 @@
 			(type default)
 		)
 		(uuid "361119bc-6c34-45de-b19f-cf871aaa18a5")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3633b1a2-ea81-4e19-9128-53c79762a1ea")
 	)
 	(wire
 		(pts
@@ -2923,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e6ea89-6e5c-423c-a14c-b885ca1dacda")
+	)
+	(wire
+		(pts
 			(xy 123.19 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -2960,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "521ffb63-83ab-47b8-b89f-2249e481b73d")
+	)
+	(wire
+		(pts
+			(xy 243.84 35.56) (xy 254 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5247fe4e-f22a-4326-8f27-90b099616480")
 	)
 	(wire
 		(pts
@@ -3020,6 +3529,16 @@
 			(type default)
 		)
 		(uuid "5b4f6527-13a8-42ca-ac9c-390aee3214bc")
+	)
+	(wire
+		(pts
+			(xy 132.08 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1f7fcc-4a57-45be-9b03-a3c446eae161")
 	)
 	(wire
 		(pts
@@ -3233,13 +3752,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 40.64) (xy 186.69 40.64)
+			(xy 132.08 43.18) (xy 129.54 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c6787cc-baae-4bba-bd15-c3bde2b4a18c")
+		(uuid "6c2e03ea-831c-4c1d-86a7-d57bb31ebf60")
 	)
 	(wire
 		(pts
@@ -3360,16 +3879,6 @@
 			(type default)
 		)
 		(uuid "79553545-464f-4c7a-aeb5-fedc5f0e0633")
-	)
-	(wire
-		(pts
-			(xy 187.96 22.86) (xy 194.31 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ccd1ddb-1c05-4aa0-8d8a-d0654ee1eeab")
 	)
 	(wire
 		(pts
@@ -3573,6 +4082,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 54.61) (xy 261.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9295bac0-fec5-447c-acb4-126dd8331244")
+	)
+	(wire
+		(pts
 			(xy 152.4 60.96) (xy 161.29 60.96)
 		)
 		(stroke
@@ -3740,6 +4259,16 @@
 			(type default)
 		)
 		(uuid "a0647dde-95eb-4834-a4a1-5e532a5e553c")
+	)
+	(wire
+		(pts
+			(xy 236.22 38.1) (xy 240.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bf23ed-a464-48bf-bcdb-4c8ddb2cd11a")
 	)
 	(wire
 		(pts
@@ -3953,16 +4482,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 152.4 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9d3ee7-49ba-4fc1-9e94-b41a8e725368")
-	)
-	(wire
-		(pts
 			(xy 148.59 99.06) (xy 166.37 99.06)
 		)
 		(stroke
@@ -4050,16 +4569,6 @@
 			(type default)
 		)
 		(uuid "c10b0625-befa-4b10-ac3c-4bb8e4c970a4")
-	)
-	(wire
-		(pts
-			(xy 123.19 45.72) (xy 132.08 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c0195c-75bd-4681-b41f-abc45f0308c3")
 	)
 	(wire
 		(pts
@@ -4243,6 +4752,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 50.8) (xy 264.16 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c9ab7d-e08d-440a-a84a-695e6cce0bec")
+	)
+	(wire
+		(pts
 			(xy 144.78 142.24) (xy 140.97 142.24)
 		)
 		(stroke
@@ -4263,6 +4782,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 35.56) (xy 243.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f15efb-c8f8-49d7-aaab-13e66139e9b0")
+	)
+	(wire
+		(pts
 			(xy 109.22 115.57) (xy 129.54 115.57)
 		)
 		(stroke
@@ -4280,16 +4809,6 @@
 			(type default)
 		)
 		(uuid "d4a6c219-c87a-4d23-a2b8-2d4258828259")
-	)
-	(wire
-		(pts
-			(xy 161.29 45.72) (xy 152.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d56401e2-c3c9-4c4d-ac89-710c27309ecd")
 	)
 	(wire
 		(pts
@@ -4503,6 +5022,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 54.61) (xy 261.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b5bb73-c354-4eb6-a50b-ca1c675848e0")
+	)
+	(wire
+		(pts
 			(xy 124.46 105.41) (xy 124.46 109.22)
 		)
 		(stroke
@@ -4583,16 +5112,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 43.18) (xy 132.08 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92ed0e7-84fb-400d-bdce-d5fab28a264d")
-	)
-	(wire
-		(pts
 			(xy 152.4 40.64) (xy 161.29 40.64)
 		)
 		(stroke
@@ -4610,6 +5129,16 @@
 			(type default)
 		)
 		(uuid "ea03f99c-6919-44fb-823f-cc71105ac7f6")
+	)
+	(wire
+		(pts
+			(xy 236.22 43.18) (xy 254 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea30c39a-bd29-4626-a097-6bb5e66ad1a0")
 	)
 	(wire
 		(pts
@@ -4663,16 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 45.72) (xy 186.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee87a432-1e5d-4cb1-aef2-23cc7191ed22")
-	)
-	(wire
-		(pts
 			(xy 149.86 147.32) (xy 149.86 153.67)
 		)
 		(stroke
@@ -4683,6 +5202,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 40.64) (xy 254 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efee9a7a-1b76-40cf-a744-f3b4b449fff7")
+	)
+	(wire
+		(pts
 			(xy 163.83 153.67) (xy 163.83 157.48)
 		)
 		(stroke
@@ -4690,6 +5219,16 @@
 			(type default)
 		)
 		(uuid "f09ba003-21d3-499f-9e18-4284bdc588dc")
+	)
+	(wire
+		(pts
+			(xy 240.03 30.48) (xy 240.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a5ec24-6859-4ea1-b39f-8ac176ca938a")
 	)
 	(wire
 		(pts
@@ -4841,26 +5380,6 @@
 		)
 		(uuid "fe1507e6-33c5-4e6f-b1a9-a5d557470852")
 	)
-	(label "RAW"
-		(at 161.29 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "059cbe45-af35-4f9d-a74e-86709553a69e")
-	)
-	(label "GND2"
-		(at 161.29 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c5a8b72-32e0-4b68-8894-93b19dd31531")
-	)
 	(label "B+"
 		(at 161.29 40.64 180)
 		(effects
@@ -4921,16 +5440,6 @@
 		)
 		(uuid "303add72-3adc-41e8-b538-d778b27b62c9")
 	)
-	(label "GND2"
-		(at 123.19 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35591ee9-fbeb-4068-8be9-0b50362f403a")
-	)
 	(label "COL6"
 		(at 161.29 71.12 180)
 		(effects
@@ -4960,16 +5469,6 @@
 			(justify left bottom)
 		)
 		(uuid "48d3cfea-9c59-4f94-b312-c4dd1ecb385d")
-	)
-	(label "RAW"
-		(at 180.34 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4de17f9a-b749-45ed-82c6-f482f3c0a82c")
 	)
 	(label "COL0"
 		(at 52.07 184.15 90)
@@ -5081,26 +5580,6 @@
 		)
 		(uuid "8e059232-776e-42e7-9193-52324634ee20")
 	)
-	(label "GND2"
-		(at 180.34 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95181a70-1487-46f0-b53d-e98ab4c01ab4")
-	)
-	(label "RAW"
-		(at 123.19 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97ad28f3-223c-4fc5-a16d-cec44dcea505")
-	)
 	(label "COL1"
 		(at 72.39 184.15 90)
 		(effects
@@ -5151,16 +5630,6 @@
 		)
 		(uuid "b66267d0-0bef-409b-b76f-ce0d68e2cacd")
 	)
-	(label "RST"
-		(at 161.29 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2d0c812-5a7e-4c7e-8f92-f2171b97cdcb")
-	)
 	(label "COL6"
 		(at 170.18 184.15 90)
 		(effects
@@ -5171,16 +5640,6 @@
 		)
 		(uuid "c717f73b-7358-4973-92a4-6a8bad98c21d")
 	)
-	(label "RST"
-		(at 170.18 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce1b7f4a-3dcd-48aa-a42c-dfaa5cc4c10c")
-	)
 	(label "COL5"
 		(at 152.4 184.15 90)
 		(effects
@@ -5190,26 +5649,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5a0966c-eaf5-4018-a681-8c2084d1b072")
-	)
-	(label "GND1"
-		(at 194.31 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5efb7e6-f803-4343-b3f2-bbcc3290c9d5")
-	)
-	(label "GND1"
-		(at 123.19 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df0013b1-198a-4dae-9e39-e6d908b17954")
 	)
 	(label "ROW2"
 		(at 123.19 66.04 0)
@@ -5245,13 +5684,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 76.2 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "092cd248-667b-474f-9a81-355f93cdb766")
 		(property "Reference" "SW0:1"
 			(at 81.026 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,38 +5703,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 76.2 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 76.2 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5301,7 +5752,7 @@
 			(uuid "b39b30ca-36e0-455c-856a-fc0a4a046411")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW0:1")
 					(unit 1)
@@ -5313,13 +5764,17 @@
 		(lib_id "Diode:1N4148")
 		(at 137.16 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "09682e7b-fd45-47d5-9e1d-4059bf7a194a")
 		(property "Reference" "D9"
 			(at 140.208 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,56 +5783,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 137.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 137.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 137.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 137.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 137.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5387,7 +5854,7 @@
 			(uuid "802cbe9c-7e9c-4d5f-8e11-931314ae32c8")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D9")
 					(unit 1)
@@ -5399,13 +5866,17 @@
 		(lib_id "Diode:1N4148")
 		(at 116.84 173.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a5e0ff6-7e28-41a1-96a8-aecca668bccb")
 		(property "Reference" "D4"
 			(at 119.888 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,56 +5885,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 116.84 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 116.84 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 116.84 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 116.84 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5473,7 +5956,7 @@
 			(uuid "b14e32d5-0f61-4f42-8074-f16c7a65ca81")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D4")
 					(unit 1)
@@ -5485,13 +5968,17 @@
 		(lib_id "Diode:1N4148")
 		(at 96.52 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b2b1265-7b88-44cb-af6e-57a39eb55ee0")
 		(property "Reference" "D27"
 			(at 99.568 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,56 +5987,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5559,7 +6058,7 @@
 			(uuid "d7c9b67d-2719-4730-853a-7fd8e1f11e40")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D27")
 					(unit 1)
@@ -5571,13 +6070,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 76.2 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bd06541-cdaf-43b4-8a2e-87de26d1a6b3")
 		(property "Reference" "SW2:1"
 			(at 81.026 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,38 +6089,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 76.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 76.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5627,7 +6138,7 @@
 			(uuid "9f794eaf-274f-4e47-8efc-d8283dd6f2e2")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:1")
 					(unit 1)
@@ -5639,13 +6150,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 55.88 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f42202c-93cb-471d-b019-85d5d9233866")
 		(property "Reference" "SW5:0"
 			(at 60.706 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,38 +6169,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5695,7 +6218,7 @@
 			(uuid "b1180837-1783-42af-a277-d4b157aeb682")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW5:0")
 					(unit 1)
@@ -5707,13 +6230,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 96.52 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f6ba8df-fd35-484a-a484-5173a9a6ab97")
 		(property "Reference" "SW2:2"
 			(at 101.346 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,38 +6249,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 96.52 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5763,7 +6298,7 @@
 			(uuid "f52e36ad-8b5e-4120-b04d-367c4d970be1")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:2")
 					(unit 1)
@@ -5775,13 +6310,17 @@
 		(lib_id "Diode:1N4148")
 		(at 137.16 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "10558265-bafa-493a-9506-4d845e6593b5")
 		(property "Reference" "D29"
 			(at 140.208 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,56 +6329,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 137.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5849,7 +6400,7 @@
 			(uuid "2d52fbbf-6f58-4781-b995-73553b25bdd7")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D29")
 					(unit 1)
@@ -5861,13 +6412,17 @@
 		(lib_id "Diode:1N4148")
 		(at 96.52 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "11a950c1-7900-4b06-83d0-a83ce683950d")
 		(property "Reference" "D7"
 			(at 99.568 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,56 +6431,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 96.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 96.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 96.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 96.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5935,7 +6502,7 @@
 			(uuid "fde0c9f5-8ae0-4018-b224-3f2418263d9e")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D7")
 					(unit 1)
@@ -5947,13 +6514,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 96.52 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "121a5db2-d40e-4530-93b3-ca3541b34af2")
 		(property "Reference" "SW4:2"
 			(at 101.346 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,38 +6533,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 96.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6003,7 +6582,7 @@
 			(uuid "f623c671-4977-4557-a40b-c873a5962d67")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:2")
 					(unit 1)
@@ -6015,13 +6594,17 @@
 		(lib_id "Diode:1N4148")
 		(at 173.99 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1879281e-89c2-40b2-8f20-74b5badb1e3f")
 		(property "Reference" "D11"
 			(at 177.038 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,56 +6613,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 173.99 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6089,7 +6684,7 @@
 			(uuid "21c8ce5e-ae9a-4f1c-9ad7-e736b350eb76")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D11")
 					(unit 1)
@@ -6101,13 +6696,17 @@
 		(lib_id "Diode:1N4148")
 		(at 156.21 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1aa0219d-1329-4001-8dba-584f44bb34d3")
 		(property "Reference" "D23"
 			(at 159.258 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,56 +6715,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 156.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6175,7 +6786,7 @@
 			(uuid "1937f4fb-037a-4c12-9087-32e4f569edef")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D23")
 					(unit 1)
@@ -6187,13 +6798,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 137.16 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "224f7864-2249-4cd0-9b9d-8149e413e431")
 		(property "Reference" "SW2:4"
 			(at 141.986 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,38 +6817,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 137.16 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6243,7 +6866,7 @@
 			(uuid "b3b38edb-b823-4474-a66e-8e0f6b935c10")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:4")
 					(unit 1)
@@ -6255,13 +6878,17 @@
 		(lib_id "Diode:1N4148")
 		(at 156.21 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "27af9c70-2f63-42a0-96b0-70fdfa61a7ed")
 		(property "Reference" "D10"
 			(at 159.258 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,56 +6897,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 156.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 156.21 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 156.21 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 156.21 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 156.21 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6329,7 +6968,7 @@
 			(uuid "f906e73c-509d-4581-842e-8458d0a14e84")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D10")
 					(unit 1)
@@ -6341,14 +6980,18 @@
 		(lib_id "Device:Battery_Cell")
 		(at 130.81 26.67 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f775b8-e4f4-4f44-947f-16ec3bc725f4")
 		(property "Reference" "BT1"
 			(at 132.6515 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,6 +7000,8 @@
 		)
 		(property "Value" "Battery_Cell"
 			(at 132.6515 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,56 +7010,68 @@
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 132.334 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.334 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Single-cell battery"
 			(at 130.81 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "V"
 			(at 130.81 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Type" "DC"
 			(at 130.81 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
 			(at 130.81 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6424,7 +7081,7 @@
 			(uuid "5439ecfe-4ce9-4f71-9d6e-627ef01a1943")
 		)
 		(instances
-			(project ""
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "BT1")
 					(unit 1)
@@ -6436,13 +7093,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 173.99 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2faebfe1-bfc8-401f-8fea-592b10a908ba")
 		(property "Reference" "SW1:6"
 			(at 178.816 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,38 +7112,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 173.99 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 173.99 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 173.99 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6492,7 +7161,7 @@
 			(uuid "0caea0af-78a7-495b-b92b-fc87132d5d02")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW1:6")
 					(unit 1)
@@ -6504,13 +7173,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 96.52 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3333d266-d85b-4907-bbd6-d1cb0cdf863e")
 		(property "Reference" "SW0:2"
 			(at 101.346 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,38 +7192,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6560,7 +7241,7 @@
 			(uuid "bf4a5819-165b-4e81-86c3-65b62d1e13c1")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW0:2")
 					(unit 1)
@@ -6572,13 +7253,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 96.52 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "363be53d-0c13-449f-b96d-98e5bf3ccd23")
 		(property "Reference" "SW1:2"
 			(at 101.346 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,38 +7272,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 96.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6628,7 +7321,7 @@
 			(uuid "3b370097-4611-45e7-a575-e16670bba542")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW1:2")
 					(unit 1)
@@ -6640,13 +7333,17 @@
 		(lib_id "Diode:1N4148")
 		(at 76.2 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c65ade7-a853-421e-802c-df6a6f03abe2")
 		(property "Reference" "D26"
 			(at 79.248 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,56 +7352,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 76.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6714,7 +7423,7 @@
 			(uuid "ce6a52ce-0d31-4c30-88ce-172b5e309fb3")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D26")
 					(unit 1)
@@ -6726,13 +7435,17 @@
 		(lib_id "Diode:1N4148")
 		(at 137.16 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fc80c2d-425d-47f1-b910-bfbfc86d83f0")
 		(property "Reference" "D16"
 			(at 140.208 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,56 +7454,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 137.16 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 137.16 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 137.16 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 137.16 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 137.16 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6800,7 +7525,7 @@
 			(uuid "cb006198-8816-476e-b53d-98e652f7d5dc")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D16")
 					(unit 1)
@@ -6812,13 +7537,17 @@
 		(lib_id "Diode:1N4148")
 		(at 96.52 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4165a40a-df35-4efd-8b34-e93486225ad5")
 		(property "Reference" "D34"
 			(at 99.568 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,56 +7556,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 96.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6886,7 +7627,7 @@
 			(uuid "07e07c41-4c78-44da-a8f0-c60da996a371")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D34")
 					(unit 1)
@@ -6898,13 +7639,17 @@
 		(lib_id "Diode:1N4148")
 		(at 116.84 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "43600420-046d-4836-9103-80fb1f6ac38e")
 		(property "Reference" "D28"
 			(at 119.888 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,56 +7658,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 116.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6972,7 +7729,7 @@
 			(uuid "9ec6f597-1a6f-46b8-88d5-d5fac8f0be38")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D28")
 					(unit 1)
@@ -6984,13 +7741,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 116.84 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "437c690b-b071-4f96-97a6-65591d758ccf")
 		(property "Reference" "SW3:3"
 			(at 121.666 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,38 +7760,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7040,7 +7809,7 @@
 			(uuid "0e1d7751-f881-4bd6-b506-501cf861b380")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW3:3")
 					(unit 1)
@@ -7052,13 +7821,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 76.2 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4535ff64-334d-4aa2-816c-53918bd473b6")
 		(property "Reference" "SW4:1"
 			(at 81.026 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,38 +7840,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 76.2 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 76.2 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 76.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7108,7 +7889,7 @@
 			(uuid "9f12722a-2547-43eb-a8db-9834ebe01b96")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:1")
 					(unit 1)
@@ -7120,13 +7901,17 @@
 		(lib_id "Diode:1N4148")
 		(at 55.88 173.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "489f576d-99d0-4e6b-ae38-c0bcc907dc39")
 		(property "Reference" "D1"
 			(at 58.928 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,56 +7920,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 55.88 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7194,7 +7991,7 @@
 			(uuid "9a5df680-bdf3-45d7-b91f-1a36c3d96b79")
 		)
 		(instances
-			(project ""
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D1")
 					(unit 1)
@@ -7206,13 +8003,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 137.16 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b3807b4-a7c3-4469-b3f5-762a573cac46")
 		(property "Reference" "SW0:4"
 			(at 141.986 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,38 +8022,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 137.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 137.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7262,7 +8071,7 @@
 			(uuid "2370702e-f7d1-4958-b09a-b2f07c8ed25b")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW0:4")
 					(unit 1)
@@ -7274,13 +8083,17 @@
 		(lib_id "Diode:1N4148")
 		(at 55.88 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "547be132-c23c-4995-9575-242edd37d1de")
 		(property "Reference" "D32"
 			(at 58.928 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,56 +8102,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7348,7 +8173,7 @@
 			(uuid "8d36487e-2473-41dd-9d89-9e04a3ef234a")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D32")
 					(unit 1)
@@ -7360,13 +8185,17 @@
 		(lib_id "Diode:1N4148")
 		(at 156.21 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "59ed1287-e89c-422b-a742-004e771b3380")
 		(property "Reference" "D17"
 			(at 159.258 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,56 +8204,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 156.21 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7434,7 +8275,7 @@
 			(uuid "ee48f54a-1736-4cb2-8d30-41ee6d6a94e4")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D17")
 					(unit 1)
@@ -7446,13 +8287,17 @@
 		(lib_id "Diode:1N4148")
 		(at 96.52 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a324f1a-10bc-4732-94d4-597c4c391ebd")
 		(property "Reference" "D14"
 			(at 99.568 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,56 +8306,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 96.52 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7520,7 +8377,7 @@
 			(uuid "db3b6226-97b1-45e0-980c-631fad946310")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D14")
 					(unit 1)
@@ -7532,13 +8389,17 @@
 		(lib_id "Diode:1N4148")
 		(at 173.99 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ca0eaf4-82f0-48e2-8b27-ef0c6abfe7bc")
 		(property "Reference" "D31"
 			(at 177.038 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,56 +8408,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7606,7 +8479,7 @@
 			(uuid "6cef150f-bc58-419e-90b2-f152c24b1b07")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D31")
 					(unit 1)
@@ -7618,13 +8491,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 96.52 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fc723cb-eb09-48d2-885a-0a4c480b970e")
 		(property "Reference" "SW5:2"
 			(at 101.346 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,38 +8510,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7674,7 +8559,7 @@
 			(uuid "d484416a-17d4-4127-9378-bae417d091b2")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW5:2")
 					(unit 1)
@@ -7686,13 +8571,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 116.84 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "64ab99df-e651-4420-8bb5-981705e47080")
 		(property "Reference" "SW0:3"
 			(at 121.666 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,38 +8590,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7742,7 +8639,7 @@
 			(uuid "c3e20eae-8e72-4faf-a25b-1b57533921e7")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW0:3")
 					(unit 1)
@@ -7754,13 +8651,17 @@
 		(lib_id "Diode:1N4148")
 		(at 116.84 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "70efcb7a-9c69-4399-9932-7d98039bbe6f")
 		(property "Reference" "D8"
 			(at 119.888 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,56 +8670,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7828,7 +8741,7 @@
 			(uuid "532a72c7-b697-4622-98c5-8cb75a8e4b08")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D8")
 					(unit 1)
@@ -7840,13 +8753,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 76.2 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "733b08bf-3c3a-4408-a310-fb4b832c7a74")
 		(property "Reference" "SW5:1"
 			(at 81.026 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,38 +8772,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 76.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7896,7 +8821,7 @@
 			(uuid "3e415e51-481f-4aa6-bfd0-49156540c5e1")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW5:1")
 					(unit 1)
@@ -7908,13 +8833,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 137.16 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "760d5e28-04d5-4b6f-a151-8afdf8d28eb2")
 		(property "Reference" "SW3:4"
 			(at 141.986 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,38 +8852,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7964,7 +8901,7 @@
 			(uuid "a631c934-1341-44b1-9f91-ad94d6317263")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW3:4")
 					(unit 1)
@@ -7976,13 +8913,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 137.16 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "77f0d310-ef5e-4510-9700-68fa4e011ca7")
 		(property "Reference" "SW1:4"
 			(at 141.986 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,38 +8932,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 137.16 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 137.16 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 137.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8032,7 +8981,7 @@
 			(uuid "4172b71c-4a44-49d0-b28e-7ff08264ecc5")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW1:4")
 					(unit 1)
@@ -8044,13 +8993,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 96.52 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "78572375-20ed-4e5e-9e39-edae36301cc4")
 		(property "Reference" "SW3:2"
 			(at 101.346 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,38 +9012,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 96.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8100,7 +9061,7 @@
 			(uuid "e0b653d7-5e1c-4f42-98a7-0de4d46217ac")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW3:2")
 					(unit 1)
@@ -8112,13 +9073,17 @@
 		(lib_id "Diode:1N4148")
 		(at 137.16 173.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "78cf235f-0c03-42e1-8303-869806e78357")
 		(property "Reference" "D5"
 			(at 140.208 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,56 +9092,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 137.16 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 137.16 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 137.16 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 137.16 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8186,7 +9163,7 @@
 			(uuid "a48d86a8-b9b2-40ff-8fb0-35a248e3dfdb")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D5")
 					(unit 1)
@@ -8198,13 +9175,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 156.21 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8147a578-95c4-4bb5-aa93-9582cf818046")
 		(property "Reference" "SW0:5"
 			(at 161.036 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,38 +9194,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 156.21 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 156.21 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 156.21 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8254,7 +9243,7 @@
 			(uuid "bfe8b7b3-e33b-43ae-a5b1-5508c9f74585")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW0:5")
 					(unit 1)
@@ -8266,13 +9255,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 173.99 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "826fa311-0e23-40dd-b9a0-44f40c5bebaa")
 		(property "Reference" "SW3:6"
 			(at 178.816 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,38 +9274,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 173.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8322,7 +9323,7 @@
 			(uuid "47f20422-6403-4154-8806-4cf504d0dba2")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW3:6")
 					(unit 1)
@@ -8334,13 +9335,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 173.99 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "85ec9c7a-584b-469e-aa87-b0891a19e4d7")
 		(property "Reference" "SW4:6"
 			(at 178.816 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,38 +9354,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8390,7 +9403,7 @@
 			(uuid "31cef501-5a19-4850-9409-faf44cd476b5")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:6")
 					(unit 1)
@@ -8402,13 +9415,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 116.84 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "86bd36a5-86bb-4282-a0e9-c84114c1977c")
 		(property "Reference" "SW5:3"
 			(at 121.666 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,38 +9434,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8458,7 +9483,7 @@
 			(uuid "af259e8b-224b-4873-bbf1-ee40ff5fbe65")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW5:3")
 					(unit 1)
@@ -8470,13 +9495,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 137.16 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c7cba65-b96f-4770-afe4-de09f654e3e6")
 		(property "Reference" "SW5:4"
 			(at 141.986 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,38 +9514,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 137.16 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8526,7 +9563,7 @@
 			(uuid "ef5bcd76-b359-4c56-a407-e55a77dca696")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW5:4")
 					(unit 1)
@@ -8538,13 +9575,17 @@
 		(lib_id "Diode:1N4148")
 		(at 116.84 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cdf11cc-8190-4e35-8c5d-0f5eb3d66d92")
 		(property "Reference" "D21"
 			(at 119.888 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,56 +9594,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 116.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8612,7 +9665,7 @@
 			(uuid "c8d445b1-7ff3-4bc5-8918-bf6cc7d49441")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D21")
 					(unit 1)
@@ -8624,13 +9677,17 @@
 		(lib_id "Diode:1N4148")
 		(at 156.21 173.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e270e59-860a-47ed-9f6a-e3f59713e168")
 		(property "Reference" "D6"
 			(at 159.258 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,56 +9696,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 156.21 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 156.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 156.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 156.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 156.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8698,7 +9767,7 @@
 			(uuid "65ee902a-27b4-4bc4-bef3-1cd1a40ed333")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D6")
 					(unit 1)
@@ -8710,13 +9779,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 116.84 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8efb4c5b-e247-45b4-a26f-66a05b799311")
 		(property "Reference" "SW2:3"
 			(at 121.666 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,38 +9798,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 116.84 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 116.84 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8766,7 +9847,7 @@
 			(uuid "b22bf29d-ce7e-46e1-a7a0-c82fbcea93c7")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:3")
 					(unit 1)
@@ -8778,13 +9859,17 @@
 		(lib_id "Diode:1N4148")
 		(at 137.16 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f632d37-7f5b-49a8-900b-55186a225e8a")
 		(property "Reference" "D22"
 			(at 140.208 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,56 +9878,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8852,7 +9949,7 @@
 			(uuid "90f8fd9e-7ccf-42c4-868d-8034689e7c62")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D22")
 					(unit 1)
@@ -8864,13 +9961,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 156.21 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "976ceace-7d89-4a19-87a8-b8770e4253de")
 		(property "Reference" "SW4:5"
 			(at 161.036 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,38 +9980,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8920,7 +10029,7 @@
 			(uuid "513ec55f-1d2b-435e-a885-8e5e99be9ea8")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:5")
 					(unit 1)
@@ -8932,13 +10041,17 @@
 		(lib_id "Diode:1N4148")
 		(at 76.2 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f3e6e1-bfb6-48bb-9b9a-09f5423cc302")
 		(property "Reference" "D13"
 			(at 79.248 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,56 +10060,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9006,7 +10131,7 @@
 			(uuid "9257cc59-ebf0-4a2c-8bbf-85e9f0c7cb3e")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D13")
 					(unit 1)
@@ -9018,13 +10143,17 @@
 		(lib_id "Diode:1N4148")
 		(at 55.88 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae76f3a5-927d-42bb-8051-8cbe0e1fde37")
 		(property "Reference" "D12"
 			(at 58.928 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,56 +10162,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 55.88 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9092,7 +10233,7 @@
 			(uuid "fcd0afbc-58fd-4d7a-933d-956a5e9b29f0")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D12")
 					(unit 1)
@@ -9104,13 +10245,17 @@
 		(lib_id "Diode:1N4148")
 		(at 173.99 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0c010c2-5c51-4827-a48b-fb06a643d350")
 		(property "Reference" "D18"
 			(at 177.038 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,56 +10264,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 173.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 173.99 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 173.99 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 173.99 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 173.99 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 173.99 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9178,7 +10335,7 @@
 			(uuid "446c0f43-2eaf-4262-a745-bc15f67d4a88")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D18")
 					(unit 1)
@@ -9190,13 +10347,17 @@
 		(lib_id "Diode:1N4148")
 		(at 76.2 173.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4f8a0cd-8c4d-488b-b55d-12d9d79cdf02")
 		(property "Reference" "D2"
 			(at 79.248 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,56 +10366,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 76.2 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 76.2 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 76.2 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 76.2 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9264,7 +10437,7 @@
 			(uuid "32a3d33a-d1e3-4426-99c4-2d8f4fe04e50")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D2")
 					(unit 1)
@@ -9276,13 +10449,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 76.2 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5e1c630-1d67-42f3-9788-a7a1f4fb0860")
 		(property "Reference" "SW3:1"
 			(at 81.026 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,38 +10468,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9332,7 +10517,7 @@
 			(uuid "677a75f6-3afd-420e-8e7d-5af7a2b7ff2e")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW3:1")
 					(unit 1)
@@ -9344,13 +10529,17 @@
 		(lib_id "Diode:1N4148")
 		(at 116.84 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c30567f9-f77b-4f4a-b7e2-4551b12a3cd1")
 		(property "Reference" "D35"
 			(at 119.888 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,56 +10548,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 116.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9418,7 +10619,7 @@
 			(uuid "ccb47654-c70f-4f46-b7c5-7a78eb4b9abe")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D35")
 					(unit 1)
@@ -9430,13 +10631,17 @@
 		(lib_id "Diode:1N4148")
 		(at 76.2 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5968286-b2bd-48d5-89b4-5171ee5bad2b")
 		(property "Reference" "D33"
 			(at 79.248 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,56 +10650,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 76.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9504,7 +10721,7 @@
 			(uuid "5df48064-565e-4d5c-8934-8cd9e7289fcb")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D33")
 					(unit 1)
@@ -9516,13 +10733,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 156.21 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ced59fca-518a-428a-9c7b-7c4fd6382f95")
 		(property "Reference" "SW2:5"
 			(at 161.036 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,38 +10752,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 156.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 156.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 156.21 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9572,158 +10801,9 @@
 			(uuid "b7b6e38f-dfa6-4401-99dd-eecd07b3498e")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Barrel_Jack_PTH")
-		(at 194.31 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfa65226-e481-48b3-9525-8e13430bc7ef")
-		(property "Reference" "J1"
-			(at 194.31 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 194.31 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:DC-033"
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf"
-			(at 193.04 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 194.31 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-08197"
-			(at 194.31 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d33c874-a47f-4f82-a619-50aa1eef0f50")
-		)
-		(pin "1"
-			(uuid "fcad33fc-83d2-4433-a166-1a79a50742ee")
-		)
-		(pin "3"
-			(uuid "27bec5ed-3f31-4784-bf71-039084dc388f")
-		)
-		(instances
-			(project ""
-				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 182.88 22.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfb5f95c-2c45-4924-bcef-d98fb81c2a6e")
-		(property "Reference" "RST1"
-			(at 178.054 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 182.88 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library:Push button"
-			(at 182.88 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 182.88 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6c4447f-bcf6-472b-b9d2-e74d91cdd30a")
-		)
-		(pin "2"
-			(uuid "27a705a8-4519-44b9-b50f-59b4577e169d")
-		)
-		(instances
-			(project "ErgoDoxWl"
-				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
-					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -9733,13 +10813,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 55.88 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d23e87cb-2b7c-4fe6-bd2d-6272d492e083")
 		(property "Reference" "SW4:0"
 			(at 60.706 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,38 +10832,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 55.88 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9789,7 +10881,7 @@
 			(uuid "1126e36d-0597-4b35-8eca-ddcf6c0dc2d8")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:0")
 					(unit 1)
@@ -9801,13 +10893,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 156.21 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d411d6d0-a12f-4478-b5c3-729ad4513c93")
 		(property "Reference" "SW5:5"
 			(at 161.036 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,38 +10912,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 156.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 156.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 156.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9857,7 +10961,7 @@
 			(uuid "05b0e72f-e4de-48e9-91b4-c0e480212e09")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW5:5")
 					(unit 1)
@@ -9869,13 +10973,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 137.16 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9eb866f-499b-4ff1-87e7-eca5f0c047bd")
 		(property "Reference" "SW4:4"
 			(at 141.986 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,38 +10992,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 137.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9925,7 +11041,7 @@
 			(uuid "c1200ac4-2c11-4ff9-ab1d-1c40fb8799ea")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:4")
 					(unit 1)
@@ -9937,13 +11053,17 @@
 		(lib_id "Diode:1N4148")
 		(at 76.2 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "da6d6d6a-4aed-4efc-9664-a9e90a16f1c0")
 		(property "Reference" "D19"
 			(at 79.248 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,56 +11072,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10011,7 +11143,7 @@
 			(uuid "027b37ba-ed02-47fd-bb75-9d2e569ca573")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D19")
 					(unit 1)
@@ -10023,13 +11155,17 @@
 		(lib_id "Diode:1N4148")
 		(at 96.52 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "daf35922-e1f5-430a-9398-804ef7647f3e")
 		(property "Reference" "D20"
 			(at 99.568 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,56 +11174,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 96.52 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10097,7 +11245,7 @@
 			(uuid "ee74824b-d0cf-4819-964e-442318442b2a")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D20")
 					(unit 1)
@@ -10109,13 +11257,17 @@
 		(lib_id "Diode:1N4148")
 		(at 156.21 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbc844e9-25af-46f8-9c69-0463e8cc331b")
 		(property "Reference" "D30"
 			(at 159.258 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,56 +11276,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10183,7 +11347,7 @@
 			(uuid "1866dd75-7e52-4891-be1b-967233c2c318")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D30")
 					(unit 1)
@@ -10195,13 +11359,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 55.88 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc4c2fdf-5abe-4dd2-aaea-db70ac15787d")
 		(property "Reference" "SW0:0"
 			(at 60.706 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,38 +11378,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 55.88 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 55.88 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10251,7 +11427,7 @@
 			(uuid "0e782d5a-edf4-4d73-9b4c-e12d58d79ece")
 		)
 		(instances
-			(project ""
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW0:0")
 					(unit 1)
@@ -10263,22 +11439,28 @@
 		(lib_id "New_Library:ProMicro")
 		(at 140.97 38.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de49a335-b3bc-4d1c-9fdb-8432dbe5ac27")
 		(property "Reference" "U1"
 			(at 142.24 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 142.24 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,6 +11469,8 @@
 		)
 		(property "Footprint" "Library:ProMicro"
 			(at 142.24 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,20 +11479,24 @@
 		)
 		(property "Datasheet" ""
 			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "7"
@@ -10390,7 +11578,7 @@
 			(uuid "d8b7b4ac-68c0-4e73-8b5a-f31a6a3d813e")
 		)
 		(instances
-			(project ""
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "U1")
 					(unit 1)
@@ -10402,14 +11590,18 @@
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 144.78 24.13 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df8fce73-39d0-4234-9621-18d0bced9d27")
 		(property "Reference" "SW1"
 			(at 144.78 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,6 +11610,8 @@
 		)
 		(property "Value" "SW_DPST_x2"
 			(at 144.78 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,29 +11620,35 @@
 		)
 		(property "Footprint" "Library:Power switch"
 			(at 144.78 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 144.78 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -10470,7 +11670,7 @@
 			(uuid "af3c4abc-d859-4456-aade-31416dc17b56")
 		)
 		(instances
-			(project ""
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW1")
 					(unit 1)
@@ -10482,13 +11682,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 55.88 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e27f9bd1-99ab-459e-a5b6-c90ecb8cd623")
 		(property "Reference" "SW2:0"
 			(at 60.706 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,38 +11701,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 55.88 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 55.88 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 55.88 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10538,7 +11750,7 @@
 			(uuid "e02760ad-7703-40c8-b5c5-654167e04de3")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:0")
 					(unit 1)
@@ -10550,13 +11762,17 @@
 		(lib_id "Diode:1N4148")
 		(at 156.21 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3715127-ea47-4643-b4cb-ec39d2178bdb")
 		(property "Reference" "D37"
 			(at 159.258 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,56 +11781,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 156.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10624,9 +11852,106 @@
 			(uuid "46deee68-2623-4490-a089-46d212adcf2f")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Audio_Jack_TRRS_3.5mm_SMD")
+		(at 231.14 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e42bda4a-5c0b-43a8-9ac9-1ab0d4970e01")
+		(property "Reference" "J2"
+			(at 228.6 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.5mm TRRS"
+			(at 228.6 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SJ3-35094A"
+			(at 231.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
+			(at 231.14 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 231.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CONN-10676"
+			(at 231.14 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "bcb07192-fe39-4a48-ada6-78b499f1b490")
+		)
+		(pin "R2"
+			(uuid "a05523ff-3fbb-4102-bd4b-6b7fda216c49")
+		)
+		(pin "R1"
+			(uuid "d698124e-86d5-49a4-9bcb-5ad075fc4474")
+		)
+		(pin "T"
+			(uuid "07ce521b-facf-4a33-9a8a-a3b3c65c6106")
+		)
+		(instances
+			(project "ErgoDoxEZBL"
+				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10636,13 +11961,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 156.21 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e534e4b5-771e-4812-81d8-e8d9e47050cb")
 		(property "Reference" "SW1:5"
 			(at 161.036 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,38 +11980,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 156.21 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 156.21 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 156.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10692,7 +12029,7 @@
 			(uuid "c567f568-f896-4b5f-bd79-ea8b46e37df2")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW1:5")
 					(unit 1)
@@ -10704,13 +12041,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 156.21 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8242c02-2c09-49f7-b92a-2c6d388661fd")
 		(property "Reference" "SW3:5"
 			(at 161.036 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,38 +12060,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 156.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10760,7 +12109,7 @@
 			(uuid "4001d497-dccc-417e-a0ac-9e9ec7d54bba")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW3:5")
 					(unit 1)
@@ -10772,13 +12121,17 @@
 		(lib_id "Diode:1N4148")
 		(at 96.52 173.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e91f6775-c36c-4d36-a839-36d7109a125e")
 		(property "Reference" "D3"
 			(at 99.568 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10787,56 +12140,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10846,7 +12211,7 @@
 			(uuid "3d755825-eb7f-4db3-b9c0-ca6089c5940f")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D3")
 					(unit 1)
@@ -10858,13 +12223,17 @@
 		(lib_id "Diode:1N4148")
 		(at 137.16 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec3aabf5-036d-4edc-9281-b18f8ef03f9a")
 		(property "Reference" "D36"
 			(at 140.208 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,56 +12242,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 137.16 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10932,7 +12313,7 @@
 			(uuid "f632943c-b75c-4ace-8382-c39bced71ef5")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D36")
 					(unit 1)
@@ -10944,13 +12325,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 116.84 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec598858-d690-4dcf-883d-d024c6f29e97")
 		(property "Reference" "SW4:3"
 			(at 121.666 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,38 +12344,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 116.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 116.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11000,7 +12393,7 @@
 			(uuid "855269d4-f77c-487b-bf5d-6575187cfd5a")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW4:3")
 					(unit 1)
@@ -11012,13 +12405,17 @@
 		(lib_id "Diode:1N4148")
 		(at 173.99 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1d71614-bb4d-4bcf-8d8b-03f11d5c6ba5")
 		(property "Reference" "D24"
 			(at 177.038 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,56 +12424,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 173.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 173.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 173.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 173.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 173.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 173.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11086,7 +12495,7 @@
 			(uuid "4b4ac297-de3e-4846-b1fb-197ab8330081")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D24")
 					(unit 1)
@@ -11098,13 +12507,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 116.84 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3814a1f-404c-4c51-9023-176a01ddbff1")
 		(property "Reference" "SW1:3"
 			(at 121.666 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,38 +12526,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 116.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 116.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11154,7 +12575,7 @@
 			(uuid "8e9387b6-f97a-4d19-9173-4b72344a513d")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW1:3")
 					(unit 1)
@@ -11166,13 +12587,17 @@
 		(lib_id "Diode:1N4148")
 		(at 55.88 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbf2da14-01a7-48f2-b887-7b2c7765dc1f")
 		(property "Reference" "D25"
 			(at 58.928 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,56 +12606,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 55.88 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11240,7 +12677,7 @@
 			(uuid "5e0741b6-1d98-419b-b209-985eb1b6da5b")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D25")
 					(unit 1)
@@ -11252,13 +12689,17 @@
 		(lib_id "Diode:1N4148")
 		(at 116.84 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcade560-4a39-4151-bc0c-64697508c7b8")
 		(property "Reference" "D15"
 			(at 119.888 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,56 +12708,68 @@
 		)
 		(property "Value" "1N4148"
 			(at 116.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11326,9 +12779,100 @@
 			(uuid "5aef1587-87fa-4158-9454-fd296bae7aaf")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_A")
+		(at 261.62 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fef78d4f-8c2d-455d-978d-a9a875889fa8")
+		(property "Reference" "J1"
+			(at 260.3499 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 262.8899 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm"
+			(at 257.81 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type A connector"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e07347a-914a-49cd-8a26-fe877153fbc0")
+		)
+		(pin "4"
+			(uuid "4fbac718-6370-435e-b3ca-c7dd79b2f282")
+		)
+		(pin "5"
+			(uuid "321126bd-9ce4-4fc8-bc39-379c8cfdc7a9")
+		)
+		(pin "2"
+			(uuid "22438fd4-3335-46a6-b8d0-85f9aaaf2a49")
+		)
+		(pin "3"
+			(uuid "ca6200f5-7a6c-4289-b49e-08be27b1e36e")
+		)
+		(instances
+			(project "ErgoDoxEZBL"
+				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11338,13 +12882,17 @@
 		(lib_id "Switch:SW_Push")
 		(at 173.99 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff3f5cc9-6ad4-4944-9799-9865a14cd6d6")
 		(property "Reference" "SW2:6"
 			(at 178.816 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,38 +12901,46 @@
 		)
 		(property "Value" "SW_Push"
 			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 173.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11394,7 +12950,7 @@
 			(uuid "7e27a871-476a-41c4-b419-29ac30d5a85d")
 		)
 		(instances
-			(project "ErgoDoxWl"
+			(project "ErgoDoxEZBL"
 				(path "/3053ec06-840e-4005-9343-c33222f1a18f"
 					(reference "SW2:6")
 					(unit 1)
